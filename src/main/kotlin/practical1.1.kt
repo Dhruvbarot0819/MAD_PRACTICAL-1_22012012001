@@ -7,7 +7,7 @@ fun main(){
     var db ='d'
     var s = true
 
-    println ("$number is int var")
+    println ("$number is int variable")
     println ("$name is int var")
     println ("$c is int var")
     println ("$db is int var")
