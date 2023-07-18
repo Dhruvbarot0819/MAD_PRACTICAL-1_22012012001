@@ -8,21 +8,25 @@ fun main(){
     var num2:Int = readLine()!!.toInt()
 
 
-//    print("addition of two number$num and $num2"+ add(num,num2))
-//    print("addition of two number$num and $num2"+ sub(num,num2))
-    fun add(num:Int,num2:Int):Int{
-        return num + num2
-    }
+    print("Addition of two number ${add(num,num2)}")
+    print("subtraction of two number ${sub(num,num2)}")
+    print("multiplication of two number ${mul(num,num2)}")
+    print("division of two number ${div(num,num2)}")
 
-    fun sub(num:Int,num2:Int):Int{
-        return num - num2
-    }
+}
 
-    fun mul(num:Int,num2:Int):Int{
-        return num * num2
-    }
+fun add(num:Int,num2:Int):Int{
+    return num + num2
+}
 
-    fun div(num:Int,num2:Int):Int{
-        return num / num2
-    }
+fun sub(num:Int,num2:Int):Int{
+    return num - num2
+}
+
+fun mul(num:Int,num2:Int):Int{
+    return num * num2
+}
+
+fun div(num:Int,num2:Int):Int{
+    return num / num2
 }
