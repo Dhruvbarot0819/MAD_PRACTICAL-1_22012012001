@@ -10,21 +10,30 @@ fun main() {
         array.set(i, readLine()!!.toInt())
     }
     var temp: Int
-    for (i in 0..array_size - 1) { for (j in 0..array_size - 1) {
-        if (array[i] <= array[j])
-        {
-            temp = array[i]
-            array[i] = array[j]
-            array[j] = temp
+    for (i in 0..array_size - 1) {
+        for (j in 0..array_size - 1) {
+            if (array[i] <= array[j]) {
+                temp = array[i]
+                array[i] = array[j]
+                array[j] = temp
+            }
         }
     }
-    }
 
-    println(" Without using inbuilt function")
+//    println(" Without using inbuilt function")
+//    println("	Sorted Array	")
+//
+//    for (i in 0..array_size - 1) {
+//        println("arr[$i]=" + array[i])
+//    }
+
+    println("#Method 2 - Using inbuilt function")
     println("	Sorted Array	")
 
+    array2.sort()
     for (i in 0..array_size - 1) {
-        println("arr[$i]=" + array[i])
-    }
+        println("arr[$i]=" + array2[i])
 
+
+    }
 }
