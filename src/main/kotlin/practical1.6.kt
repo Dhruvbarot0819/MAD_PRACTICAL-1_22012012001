@@ -8,10 +8,10 @@ fun main(){
     var num2:Int = readLine()!!.toInt()
 
 
-    print("Addition of two number ${add(num,num2)}")
-    print("subtraction of two number ${sub(num,num2)}")
-    print("multiplication of two number ${mul(num,num2)}")
-    print("division of two number ${div(num,num2)}")
+    println("Addition of two number ${add(num,num2)}")
+    println("subtraction of two number ${sub(num,num2)}")
+    println("multiplication of two number ${mul(num,num2)}")
+    println("division of two number ${div(num,num2)}")
 
 }
 
